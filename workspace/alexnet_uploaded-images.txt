@@ -1,0 +1,306 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                    Bull_01.jpg  label:                       bull
+ 2 key:                Lexus350_01.jpg  label:                           
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Dog_01.jpg  label:                        dog
+{'Bull_01.jpg': ['bull'], 'Lexus350_01.jpg': [''], 'Dog_02.jpg': ['dog'], 'Dog_01.jpg': ['dog']}
+Here is truth 
+Here is truth dog
+
+     MATCH:
+
+               Lexus350_01.jpg: 
+Real:                              Classifier:                        minivan
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+ NOT A MATCH:
+
+                   Bull_01.jpg: 
+Real:                       bull   Classifier:                             ox
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:              brabancon griffon
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+Duplicate Dog Names in line chihuahua
+Duplicate Dog Names in line japanese spaniel
+Duplicate Dog Names in line maltese dog, maltese terrier, maltese
+Duplicate Dog Names in line pekinese, pekingese, peke
+Duplicate Dog Names in line shih-tzu
+Duplicate Dog Names in line blenheim spaniel
+Duplicate Dog Names in line papillon
+Duplicate Dog Names in line toy terrier
+Duplicate Dog Names in line rhodesian ridgeback
+Duplicate Dog Names in line afghan hound, afghan
+Duplicate Dog Names in line basset, basset hound
+Duplicate Dog Names in line beagle
+Duplicate Dog Names in line bloodhound, sleuthhound
+Duplicate Dog Names in line bluetick
+Duplicate Dog Names in line black-and-tan coonhound
+Duplicate Dog Names in line walker hound, walker foxhound
+Duplicate Dog Names in line english foxhound
+Duplicate Dog Names in line redbone
+Duplicate Dog Names in line borzoi, russian wolfhound
+Duplicate Dog Names in line irish wolfhound
+Duplicate Dog Names in line italian greyhound
+Duplicate Dog Names in line whippet
+Duplicate Dog Names in line ibizan hound, ibizan podenco
+Duplicate Dog Names in line norwegian elkhound, elkhound
+Duplicate Dog Names in line otterhound, otter hound
+Duplicate Dog Names in line saluki, gazelle hound
+Duplicate Dog Names in line scottish deerhound, deerhound
+Duplicate Dog Names in line weimaraner
+Duplicate Dog Names in line staffordshire bullterrier, staffordshire bull terrier
+Duplicate Dog Names in line american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+Duplicate Dog Names in line bedlington terrier
+Duplicate Dog Names in line border terrier
+Duplicate Dog Names in line kerry blue terrier
+Duplicate Dog Names in line irish terrier
+Duplicate Dog Names in line norfolk terrier
+Duplicate Dog Names in line norwich terrier
+Duplicate Dog Names in line yorkshire terrier
+Duplicate Dog Names in line wire-haired fox terrier
+Duplicate Dog Names in line lakeland terrier
+Duplicate Dog Names in line sealyham terrier, sealyham
+Duplicate Dog Names in line airedale, airedale terrier
+Duplicate Dog Names in line cairn, cairn terrier
+Duplicate Dog Names in line australian terrier
+Duplicate Dog Names in line dandie dinmont, dandie dinmont terrier
+Duplicate Dog Names in line boston bull, boston terrier
+Duplicate Dog Names in line miniature schnauzer
+Duplicate Dog Names in line giant schnauzer
+Duplicate Dog Names in line standard schnauzer, schnauzer
+Duplicate Dog Names in line scotch terrier, scottish terrier, scottie
+Duplicate Dog Names in line tibetan terrier, chrysanthemum dog
+Duplicate Dog Names in line silky terrier, sydney silky
+Duplicate Dog Names in line soft-coated wheaten terrier
+Duplicate Dog Names in line west highland white terrier
+Duplicate Dog Names in line lhasa, lhasa apso
+Duplicate Dog Names in line flat-coated retriever
+Duplicate Dog Names in line curly-coated retriever
+Duplicate Dog Names in line golden retriever
+Duplicate Dog Names in line labrador retriever
+Duplicate Dog Names in line chesapeake bay retriever
+Duplicate Dog Names in line german shorthaired pointer
+Duplicate Dog Names in line vizsla, hungarian pointer
+Duplicate Dog Names in line english setter
+Duplicate Dog Names in line irish setter, red setter
+Duplicate Dog Names in line gordon setter
+Duplicate Dog Names in line brittany spaniel
+Duplicate Dog Names in line clumber, clumber spaniel
+Duplicate Dog Names in line english springer, english springer spaniel
+Duplicate Dog Names in line welsh springer spaniel
+Duplicate Dog Names in line cocker spaniel, english cocker spaniel, cocker
+Duplicate Dog Names in line sussex spaniel
+Duplicate Dog Names in line irish water spaniel
+Duplicate Dog Names in line kuvasz
+Duplicate Dog Names in line schipperke
+Duplicate Dog Names in line groenendael
+Duplicate Dog Names in line malinois
+Duplicate Dog Names in line briard
+Duplicate Dog Names in line kelpie
+Duplicate Dog Names in line komondor
+Duplicate Dog Names in line old english sheepdog, bobtail
+Duplicate Dog Names in line shetland sheepdog, shetland sheep dog, shetland
+Duplicate Dog Names in line collie
+Duplicate Dog Names in line border collie
+Duplicate Dog Names in line bouvier des flandres, bouviers des flandres
+Duplicate Dog Names in line rottweiler
+Duplicate Dog Names in line german shepherd, german shepherd dog, german police dog, alsatian
+Duplicate Dog Names in line doberman, doberman pinscher
+Duplicate Dog Names in line miniature pinscher
+Duplicate Dog Names in line greater swiss mountain dog
+Duplicate Dog Names in line bernese mountain dog
+Duplicate Dog Names in line appenzeller
+Duplicate Dog Names in line entlebucher
+Duplicate Dog Names in line boxer
+Duplicate Dog Names in line bull mastiff
+Duplicate Dog Names in line tibetan mastiff
+Duplicate Dog Names in line french bulldog
+Duplicate Dog Names in line great dane
+Duplicate Dog Names in line saint bernard, st bernard
+Duplicate Dog Names in line eskimo dog, husky
+Duplicate Dog Names in line malamute, malemute, alaskan malamute
+Duplicate Dog Names in line siberian husky
+Duplicate Dog Names in line dalmatian, coach dog, carriage dog
+Duplicate Dog Names in line affenpinscher, monkey pinscher, monkey dog
+Duplicate Dog Names in line basenji
+Duplicate Dog Names in line pug, pug-dog
+Duplicate Dog Names in line leonberg
+Duplicate Dog Names in line newfoundland, newfoundland dog
+Duplicate Dog Names in line great pyrenees
+Duplicate Dog Names in line samoyed, samoyede
+Duplicate Dog Names in line pomeranian
+Duplicate Dog Names in line chow, chow chow
+Duplicate Dog Names in line keeshond
+Duplicate Dog Names in line brabancon griffon
+Duplicate Dog Names in line pembroke, pembroke welsh corgi, corgi
+Duplicate Dog Names in line cardigan, cardigan welsh corgi, corgi
+Duplicate Dog Names in line toy poodle
+Duplicate Dog Names in line miniature poodle
+Duplicate Dog Names in line standard poodle, poodle
+Duplicate Dog Names in line mexican hairless
+Duplicate Dog Names in line affenpinscher
+Duplicate Dog Names in line afghan hound
+Duplicate Dog Names in line airedale terrier
+Duplicate Dog Names in line akita
+Duplicate Dog Names in line alaskan malamute
+Duplicate Dog Names in line american eskimo dog
+Duplicate Dog Names in line american foxhound
+Duplicate Dog Names in line american staffordshire terrier
+Duplicate Dog Names in line american water spaniel
+Duplicate Dog Names in line anatolian shepherd dog
+Duplicate Dog Names in line australian cattle dog
+Duplicate Dog Names in line australian shepherd
+Duplicate Dog Names in line basset hound
+Duplicate Dog Names in line bearded collie
+Duplicate Dog Names in line beauceron
+Duplicate Dog Names in line belgian malinois
+Duplicate Dog Names in line belgian sheepdog
+Duplicate Dog Names in line belgian tervuren
+Duplicate Dog Names in line bichon frise
+Duplicate Dog Names in line black and tan coonhound
+Duplicate Dog Names in line black russian terrier
+Duplicate Dog Names in line bloodhound
+Duplicate Dog Names in line bluetick coonhound
+Duplicate Dog Names in line borzoi
+Duplicate Dog Names in line boston terrier
+Duplicate Dog Names in line bouvier des flandres
+Duplicate Dog Names in line boykin spaniel
+Duplicate Dog Names in line brittany
+Duplicate Dog Names in line brussels griffon
+Duplicate Dog Names in line bull terrier
+Duplicate Dog Names in line bulldog
+Duplicate Dog Names in line bullmastiff
+Duplicate Dog Names in line cairn terrier
+Duplicate Dog Names in line canaan dog
+Duplicate Dog Names in line cane corso
+Duplicate Dog Names in line cardigan welsh corgi
+Duplicate Dog Names in line cavalier king charles spaniel
+Duplicate Dog Names in line chinese crested
+Duplicate Dog Names in line chinese shar-pei
+Duplicate Dog Names in line chow chow
+Duplicate Dog Names in line clumber spaniel
+Duplicate Dog Names in line cocker spaniel
+Duplicate Dog Names in line corgi
+Duplicate Dog Names in line dachshund
+Duplicate Dog Names in line dalmatian
+Duplicate Dog Names in line dandie dinmont terrier
+Duplicate Dog Names in line deerhound
+Duplicate Dog Names in line doberman pinscher
+Duplicate Dog Names in line dogue de bordeaux
+Duplicate Dog Names in line english cocker spaniel
+Duplicate Dog Names in line english springer spaniel
+Duplicate Dog Names in line english toy spaniel
+Duplicate Dog Names in line entlebucher mountain dog
+Duplicate Dog Names in line field spaniel
+Duplicate Dog Names in line finnish spitz
+Duplicate Dog Names in line german pinscher
+Duplicate Dog Names in line german shepherd dog
+Duplicate Dog Names in line german wirehaired pointer
+Duplicate Dog Names in line glen of imaal terrier
+Duplicate Dog Names in line greyhound
+Duplicate Dog Names in line havanese
+Duplicate Dog Names in line ibizan hound
+Duplicate Dog Names in line icelandic sheepdog
+Duplicate Dog Names in line irish red and white setter
+Duplicate Dog Names in line irish setter
+Duplicate Dog Names in line japanese chin
+Duplicate Dog Names in line leonberger
+Duplicate Dog Names in line lhasa apso
+Duplicate Dog Names in line lowchen
+Duplicate Dog Names in line maltese
+Duplicate Dog Names in line manchester terrier
+Duplicate Dog Names in line mastiff
+Duplicate Dog Names in line neapolitan mastiff
+Duplicate Dog Names in line newfoundland
+Duplicate Dog Names in line norwegian buhund
+Duplicate Dog Names in line norwegian elkhound
+Duplicate Dog Names in line norwegian lundehund
+Duplicate Dog Names in line nova scotia duck tolling retriever
+Duplicate Dog Names in line old english sheepdog
+Duplicate Dog Names in line otterhound
+Duplicate Dog Names in line parson russell terrier
+Duplicate Dog Names in line pekingese
+Duplicate Dog Names in line pembroke welsh corgi
+Duplicate Dog Names in line petit basset griffon vendeen
+Duplicate Dog Names in line pharaoh hound
+Duplicate Dog Names in line plott
+Duplicate Dog Names in line pointer
+Duplicate Dog Names in line poodle
+Duplicate Dog Names in line portuguese water dog
+Duplicate Dog Names in line pug
+Duplicate Dog Names in line saint bernard
+Duplicate Dog Names in line saluki
+Duplicate Dog Names in line samoyed
+Duplicate Dog Names in line schnauzer
+Duplicate Dog Names in line scottish terrier
+Duplicate Dog Names in line sealyham terrier
+Duplicate Dog Names in line shetland sheepdog
+Duplicate Dog Names in line silky terrier
+Duplicate Dog Names in line smooth fox terrier
+Duplicate Dog Names in line staffordshire bull terrier
+Duplicate Dog Names in line tibetan terrier
+Duplicate Dog Names in line vizsla
+Duplicate Dog Names in line walker hound
+Duplicate Dog Names in line wirehaired pointing griffon
+Duplicate Dog Names in line xoloitzcuintli
+Duplicate Dog Names in line dog
+
+     MATCH:
+
+               Lexus350_01.jpg: 
+Real:                              Classifier:                        minivan  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+                   Bull_01.jpg: 
+Real:                       bull   Classifier:                             ox  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:              brabancon griffon  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  50.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  50.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not Dog Images    :   2
+ 
+    pct_correct_dogs: 100.0
+   pct_correct_breed:  50.0
+ pct_correct_notdogs:   0.0
+           pct_match:  50.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                       bull   Classifier:                             ox
+Real:                              Classifier:                        minivan
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:              brabancon griffon
+
+** Total Elapsed Runtime: 0:0:0
