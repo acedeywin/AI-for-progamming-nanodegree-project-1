@@ -79,8 +79,9 @@ def adjust_results4_isadog(results_dic, dogfile):
             line = line.rstrip()
             if line not in dognames_dic:
                 dognames_dic[line] = 1
-            else:
+            else: 
                 line = infile.readline()
+       
                 
     for key in results_dic:
         if results_dic[key][0] in dognames_dic:
@@ -90,6 +91,8 @@ def adjust_results4_isadog(results_dic, dogfile):
                 results_dic[key].extend((1, 0))
             
         else:
+            # Classifier Label IS image of Dog (e.g. found in dognames_dic)
+            # appends (0, 1)because only Classifier labe is a dog
             if results_dic[key][1] in dognames_dic:
                 results_dic[key].extend((0, 1))
             else:
